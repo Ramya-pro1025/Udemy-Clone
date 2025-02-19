@@ -78,9 +78,21 @@ body {
     border-radius: 30px;
  
 }
+.sale-image{
+    position: relative;
+}
 .sale-image img{
     width: 100%;
 
+}
+.sale-image__offer{
+    width: 35%;
+    border: solid black 2px;
+    background-color: white;
+    padding: 2%;
+    position: absolute;
+    top: 10%;
+    left: 5%;
 }
 .recommended{
     padding: 10px;
